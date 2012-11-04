@@ -21,13 +21,13 @@ textarea {
 body {
 	background-color: #FDFDFD;
 	border-top: 0.143em solid black;
-	color: #111111;
-	font-family: 'iABCRegular',Georgia,serif;
-	font-size: 1.2em;
+	color: #333333;
+	font-family: Hiragino Mincho ProN, MS Mincho, serif;
+	font-size: 1.3em;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
-	line-height: 1.524em;
+	line-height: 1.624em;
 	padding: 1.7em 0 3.048em;
 	position: relative;
 }
@@ -118,15 +118,6 @@ header {
 	line-height: 1em;
 	text-decoration: none;
 	margin-bottom: 2.8em;
-}
-
-article {
-	font-size: 1.1em;
-	line-height: 1.65em;
-	color: #444444;
-	font-family:serif;
-	font-weight: 300;
-	text-indent: 1.5em;
 }
 
 .arrow_nav {
