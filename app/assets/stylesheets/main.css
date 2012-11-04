@@ -19,8 +19,17 @@ textarea {
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
+	background-color: #FDFDFD;
+	border-top: 0.143em solid black;
+	color: #111111;
+	font-family: 'iABCRegular',Georgia,serif;
+	font-size: 1.2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.524em;
+	padding: 1.7em 0 3.048em;
+	position: relative;
 }
 
 /*
@@ -93,13 +102,61 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container {
+	margin: 0 auto;
+	max-width: 660px;
+	display: block;
+  position: relative;
+}
 
+header {
+	text-align: center;
+	color: #333333;
+	font-family: HelveticaNeue,Arial;
+	font-size: 1.7em;
+	font-weight: bold;
+	line-height: 1em;
+	text-decoration: none;
+	margin-bottom: 2.8em;
+}
 
+article {
+	font-size: 1.1em;
+	line-height: 1.65em;
+	color: #444444;
+	font-family:serif;
+	font-weight: 300;
+	text-indent: 1.5em;
+}
 
-
-
-
-
+.arrow_nav {
+    background-color: #000000;
+    border-radius: 3px 3px 3px 3px;
+    display: none;
+    position: absolute;
+    right: 8px;
+}
+.arrow_nav a {
+    color: #EEEEEE;
+    display: block;
+    float: left;
+    font-family: Georgia,serif;
+    font-size: 0.81em;
+    height: 1.882em;
+    line-height: 2.059em;
+    padding: 0 8px;
+    position: relative;
+    text-decoration: none;
+    text-transform: lowercase;
+    width: auto;
+}
+.arrow_nav a:hover {
+    background-color: #777777;
+    border-radius: 3px 3px 3px 3px;
+}
+.arrow_nav.top {
+    top: 8px;
+}
 
 
 

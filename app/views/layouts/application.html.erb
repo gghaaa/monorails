@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Monorails</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Monorails</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<nav><%= render :partial => 'shared/nav' %></nav>
+	
+	<div class="container">	
+		<header><%= render :partial => 'shared/header' %></header>
+		<section class="contents">
+			<%= yield %>
+		</section>
+		<footer><%= render :partial => 'shared/footer' %></footer>
+	</div>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 </body>
 </html>
